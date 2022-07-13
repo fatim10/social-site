@@ -1,0 +1,243 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>social</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/21fc840d43.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <div class="logo"><i class="fa-solid fa-champagne-glasses"></i>SocialBears</div>
+                <ul>
+                    <li><a class="icon" href="#"><i class="fa-solid fa-bell"></i></a></li>
+                    <li><a class="icon" href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a class="icon" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <input type="text" placeholder="search">
+                </div>
+                <div class="nav-user-icon online" onclick="SettingsMenuToggle()">
+                    <img class="profile" src="images/profilee.jpeg">
+                </div>
+            </div>
+            <!-----------setting-menu-------------->
+            <div class="setting-menu">
+                <div id="dark-btn"> 
+                    <span></span>
+                </div>
+                <div class="setting-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/profilee.jpeg">
+                        <div>
+                            <p>fatima souliman</p>
+                            <a href="#">see your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images/feedback.png">
+                        <div>
+                            <p>give fadeback</p>
+                            <a href="#">help us to improve the new desgin</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="settings-links">
+                        <img src="images/setting.jpg">
+                        <a href="#">setting & privacy<i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/help.jpg">
+                        <a href="#">Help & Support<i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/display.webp">
+                        <a href="#">Display & Accessibility<i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/logout1.jpg">
+                        <a href="#">Logout<i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="continar">
+            <!----------left-sidebar---------------->
+                <div class="left-sidebar">
+                    <div class="imp-links">
+                        <a href=""><i class="fa-regular fa-newspaper"></i>latest news</a>
+                        <a href=""><i class="fa-solid fa-user-group"></i>friends</a>
+                        <a href=""><i class="fa-solid fa-users"></i>group</a>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i>marketplace</a>
+                        <a href=""><i class="fa-solid fa-tv"></i>watch</a>
+                        <a href="#">see more</a>
+                    </div>
+                    <div class="shortcut-links">
+                        <p>your shortcut</p>
+                        <a href="#"><img src="images/Web Developer.png"> Web Developer</a>
+                        <a href="#"><img src="images/Web Design.png"> Web Design</a>
+                        <a href="#"><img src="images/Full Stack Development.png"> Full Stack Development</a>
+                        <a href="#"><img src="images/Website Experts.png"> Website Experts</a>
+
+                    </div>
+                </div>
+                <!------------------main-content--------------->
+                <div class="main-content">
+                    <div class="story-gallery">
+                        <div class="story">
+                            <img class="prof" src="images/plus.png">
+                            <p>post story</p>
+                        </div>
+                        <div class="story story1">
+                            <img class="frin" src="images/person1.jpg">
+                            <p>jode meraso</p>
+                        </div>
+                        <div class="story story2">
+                            <img class="frin" src="images/person2.jpg">
+                            <p>jak ferano</p>
+                        </div>
+                        <div class="story story3">
+                            <img class="frin" src="images/person3.jpg">
+                            <p>merna korner</p>
+                        </div>
+                        <div class="story story4">
+                            <img class="frin" src="images/person4.jpg">
+                            <p>mariam souliman</p>
+                        </div>
+                    </div>
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="images/profilee.jpeg">
+                            <div>
+                                <p>fatima souliman</p>
+                                <small>public<i class="fa-solid fa-sort-down"></i></small>
+                            </div>
+                        </div>
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder="what's on your mind fatima"></textarea>
+                            <div class="add-post-links">
+                                <a href="#"><div class="post-icon video"><i class="fa-solid fa-video"></i></div> Video</a>
+                                <a href="#"><div class="post-icon photo"><i class="fa-solid fa-camera"></i></div>Photo/Video</a>
+                                <a href="#"><div class="post-icon feel"><i class="fa-solid fa-face-grin-wide"></i></div> Feeling/Activity</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-continar">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profilee.jpeg">
+                                <div>
+                                    <p>fatima souliman</p>
+                                    <span>june 24 2022, 13:40pm</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+                        <p class="post-text">learn How To Make Social Media Website Design Using HTML And CSS | Create Social Network Website Design Like Facebook
+                            👉 Buy Source Code:</p>
+                        <img src="images/Web Design.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div class="like"><i class="fa-solid fa-thumbs-up"></i><span>120</span></div>
+                                <div><i class="fa-solid fa-comments"></i>45</div>
+                                <div><i class="fa-solid fa-share"></i>5</div>
+                            </div>
+                            <div class="post-profile-i"><img src="images/profilee.jpeg"><i class="fa-solid fa-sort-down"></i></div>
+                        </div>
+                    </div>
+                    <div class="post-continar">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/person1.jpg">
+                                <div>
+                                    <p>jode meraso</p>
+                                    <span>june 23 2022, 13:40pm</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+                        <p class="post-text">learn How To Make Social Media Website Design Using HTML And CSS | Create Social Network Website Design Like Facebook
+                            👉 Buy Source Code:</p>
+                        <img src="images/Web Developer.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div class="like"><i class="fa-solid fa-thumbs-up"></i><span>120</span></div>
+                                <div><i class="fa-solid fa-comments"></i>45</div>
+                                <div><i class="fa-solid fa-share"></i>5</div>
+                            </div>
+                            <div class="post-profile-i"><img src="images/person1.jpg"><i class="fa-solid fa-sort-down"></i></div>
+                        </div>
+                    </div>
+                    <button type="button" class="load-btn">load more</button>
+                </div>
+                <!-------------------right-sidebar----------------------->
+                <div class="right-sidebar">
+                    <div class="sidebar-titel">
+                        <h4>events</h4>
+                        <a href="#">See All</a>
+                    </div>
+                    <div class="event">
+                        <div class="left-event">
+                            <h3>18</h3>
+                            <span>March</span>
+                        </div>
+                        <div class="right-event">
+                            <h4>Social Media</h4>
+                            <p><i class="fa-solid fa-location-dot"></i>Marea fefo</p>
+                            <a href="#">More info</a>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="left-event">
+                            <h3>22</h3>
+                            <span>March</span>
+                        </div>
+                        <div class="right-event">
+                            <h4>Mobail Markting</h4>
+                            <p><i class="fa-solid fa-location-dot"></i>Marea fefo</p>
+                            <a href="#">More info</a>
+                        </div>
+                    </div>
+                    <div class="sidebar-titel">
+                        <h4>advertisement</h4>
+                        <a href="#">close</a>
+                    </div>
+                    <img src="images/group.jpg" class="sidebar-ads">
+                    <div class="sidebar-titel">
+                        <h4>conversation</h4>
+                        <a href="#">hide chat</a>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="images/person1.jpg">    
+                        </div>
+                        <p>jode meraso</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="images/person2.jpg">
+                        </div>
+                        <p>jak ferano</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="images/person3.jpg">
+                        </div>
+                        <p>merna korner</p>
+                    </div>
+                </div>
+        </div>
+        <footer>
+            <p>copy2022 - Easy Tutorails Youtupe Channel</p>
+        </footer>
+        <script src="script.js"></script>
+
+    </body>
+    </html>
